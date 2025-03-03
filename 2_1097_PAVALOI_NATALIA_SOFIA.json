@@ -1,0 +1,24 @@
+{
+    "video_1.mp4": [
+        { "start": 0, "end": 1.5, "text": "Acest ecosistem fragil," },
+        { "start": 1.6, "end": 3.1, "text": "Alimentat de izvoare pure," },
+        { "start": 3.2, "end": 5.7, "text": "Este un refugiu pentru păsări și animale sălbatice," },
+        { "start": 5.8, "end": 7, "text": "Oferind o privire rară asupra armoniei dintre apă și pământ." }
+    ],
+    "video_2.mp4": [
+        { "start": 0, "end": 7, "text": "[pond5]" }
+    ],
+    "video_3.mp4": [
+        { "start": 0, "end": 4, "text": "[Sunete de cascada]" }
+    ],
+    "video_4.mp4": [
+        { "start": 0, "end": 2, "text": "Poftim ceaiul" },
+        { "start": 2.1, "end": 4, "text": "Multumesc, draga mea" },
+        { "start": 4.1, "end": 8, "text": "Cum te simti acum?" },
+        { "start": 8.1, "end": 12, "text": "Mult mai bine" }
+    ]
+  }
+  
+
+
+  

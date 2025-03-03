@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Project Pavaloi</title>
+    <link rel="stylesheet" href="2_1097_PAVALOI_NATALIA_SOFIA.css">
+</head>
+<body>
+    <div class="videoCont">
+        <video id="video_player" controls>
+            <source src="media/video_1.mp4" type="video/mp4">
+            Nu functioneaza video tag pe browser-ul tau.
+        </video>
+
+        <div class="sub" id="subtitrari"></div>
+
+        <button id="inapoibtn">Inapoi</button>
+        <button id="redabtn">Reda</button>
+        <button id="inaintebtn">Inainte</button>
+        <input id="progressBar" type="range" min="0" max="100" value="0"  style="width: 55%;">
+        <input id="volumeBar" type="range" min="0" max="1" step="0.1" value="1" style="width: 15%;">
+
+        <ul class="listaVideo" id="lista">
+            <li data-src="media/video_1.mp4" class="active" data-index="0">
+                Video 1
+                <button class="susbtn">Muta in sus</button>
+                <button class="josbtn">Muta in jos</button>
+                <button class="stergebtn">Sterge</button>
+            </li>
+            <li data-src="media/video_2.mp4" data-index="1">
+                Video 2
+                <button class="susbtn">Muta in sus</button>
+                <button class="josbtn">Muta in jos</button>
+                <button class="stergebtn">Sterge</button>
+            </li>
+            <li data-src="media/video_3.mp4" data-index="2">
+                Video 3
+                <button class="susbtn">Muta in sus</button>
+                <button class="josbtn">Muta in jos</button>
+                <button class="stergebtn">Sterge</button>
+            </li>
+            <li data-src="media/video_4.mp4" data-index="2">
+                Video 4
+                <button class="susbtn">Muta in sus</button>
+                <button class="josbtn">Muta in jos</button>
+                <button class="stergebtn">Sterge</button>
+            </li>
+        </ul>
+    </div>
+
+    <script src="2_1097_PAVALOI_NATALIA_SOFIA.js"></script>
+</body>
+</html>
